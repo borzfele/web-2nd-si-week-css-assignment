@@ -1,0 +1,36 @@
+h1 {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-style: italic;
+	font-size: 3em;
+	color: red;
+	background-color: green;
+	text-align: left;
+	padding:50px;
+	margin: 10% 10% 10% 10%;
+
+	}
+h2 {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-style: italic;
+	color: blue;
+	background-color: grey;
+	text-align: left;
+	padding:30px;
+	margin: 0px 25px 30px 25px;
+	}
+
+#css-zen-garden {
+	background-color: lightblue;
+}
+#zen-intro {
+	width: 50%;
+	margin: auto;
+	background-color: greenyellow;
+	color: navy;
+}
+#zen-summary {
+	background-color: yellow;
+}
+#zen-preamble {
+	background-color: rebeccapurple;
+}
