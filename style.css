@@ -3,6 +3,8 @@ body {
 	margin-left: 30%;
 	border-left: 1px dashed black;
 	padding: 10px;
+	padding-left: 60px;
+	text-align: justify;
 }
 h1 {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -42,8 +44,12 @@ h2 {
 	left: 10px;
 }
 #design-selection li {
+	text-align: center;
+	margin: 3px;
 	list-style: none;
 	border-bottom: 1px dashed black;
+	background-color: #8AC73B;
+	border-radius: 30px;
 }
 
 #design-selection
