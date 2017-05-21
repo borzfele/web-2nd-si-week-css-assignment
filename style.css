@@ -1,36 +1,49 @@
+body {
+	width: 50%;
+	margin-left: 30%;
+	border-left: 1px dashed black;
+	padding: 10px;
+}
 h1 {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-style: italic;
 	font-size: 3em;
-	color: red;
-	background-color: green;
 	text-align: left;
-	padding:50px;
-	margin: 10% 10% 10% 10%;
-
+	margin-bottom: 0px;
 	}
 h2 {
+	margin-bottom: 10%;
+	text-indent: 3em;
+	font-size: 1em;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	font-style: italic;
-	color: blue;
-	background-color: grey;
 	text-align: left;
-	padding:30px;
-	margin: 0px 25px 30px 25px;
+	font-style: italic;
 	}
 
 #css-zen-garden {
 	background-color: lightblue;
 }
 #zen-intro {
-	width: 50%;
-	margin: auto;
-	background-color: greenyellow;
-	color: navy;
+	text-align: justify;
 }
 #zen-summary {
-	background-color: yellow;
+	margin-left: 3em;
+	margin-bottom: 3em;
+	font-style: italic;
+	text-align: justify;
 }
 #zen-preamble {
-	background-color: rebeccapurple;
+	text-align: justify;
 }
+#design-selection{
+	line-height: 3em;
+	position: fixed;
+	top: 30px;
+	left: 10px;
+}
+#design-selection li {
+	list-style: none;
+	border-bottom: 1px dashed black;
+}
+
+#design-selection
