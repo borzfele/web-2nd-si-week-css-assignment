@@ -67,7 +67,8 @@ h2 {
 	background-color: rgba(155, 195, 124, .6);
 	width: 100%;
 	height: 100%;
-	text-align: center;
+	text-align: left;
+	text-indent: 1em;
 	margin: 10px;
 	list-style: none;
 	border-radius: 30px;
@@ -78,6 +79,6 @@ h2 {
 	background-color: rgba(155, 195, 124, .6);
 	width: 105%;
 }
-#design-archives {
-	
+a {
+	color:#5a8e31
 }
