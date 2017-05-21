@@ -5,6 +5,8 @@ body {
 	padding: 10px;
 	padding-left: 60px;
 	text-align: justify;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 h1 {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,9 +25,12 @@ h2 {
 	}
 
 #css-zen-garden {
+	background-attachment: fixed;
+	background-image: url('bg.jpg');
 	background-color: lightblue;
 }
 #zen-intro {
+	background-color: rgba(155, 195, 124, .6);
 	text-align: justify;
 }
 #zen-summary {
@@ -37,19 +42,42 @@ h2 {
 #zen-preamble {
 	text-align: justify;
 }
+#zen-explanation {
+	background-color: rgba(155, 195, 124, .6);
+}
+#zen-participation {
+	background-color: rgba(155, 195, 124, .6);
+}
+#zen-benefits{
+	background-color: rgba(155, 195, 124, .6);
+}
+#zen-requirements{
+	background-color: rgba(155, 195, 124, .6);
+}
 #design-selection{
 	line-height: 3em;
 	position: fixed;
 	top: 30px;
 	left: 10px;
 }
+#design-selection .select{
+	text-indent: 3em;
+}
 #design-selection li {
+	background-color: rgba(155, 195, 124, .6);
+	width: 100%;
+	height: 100%;
 	text-align: center;
-	margin: 3px;
+	margin: 10px;
 	list-style: none;
-	border-bottom: 1px dashed black;
-	background-color: #8AC73B;
 	border-radius: 30px;
+	transition: width, height 2s;
 }
 
-#design-selection
+#design-selection li:hover {
+	background-color: rgba(155, 195, 124, .6);
+	width: 105%;
+}
+#design-archives {
+	
+}
